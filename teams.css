@@ -1,0 +1,141 @@
+    body {
+        background-image: url("gdscimg/background3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .image {
+        flex-basis: 30%;
+    }
+
+    .text {
+        font-size: 35px;
+        padding-left: 20px;
+    }
+
+    header ul {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        padding: 10px 4px;
+        background-color: #898989;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    header ul li a {
+        color: #fff;
+        padding: 5px 20px;
+    }
+
+    #head {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 23px;
+        color: #F00000;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #tech {
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20PX;
+        background: #FFFF66;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #design {
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+        background: #CCFFFF;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #android {
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+        background: #CCFFCC;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #community {
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+        background: #FF3333;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #media {
+        border: 2px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 20px;
+        background: #FFFF66;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #tech:hover {
+        background: yellow;
+    }
+
+    #design:hover {
+        background: #33CCFF;
+    }
+
+    #media:hover {
+        background: yellow;
+    }
+
+    #community:hover {
+        background: #CC0000;
+    }
+
+    #android:hover {
+        background: #33FF66;
+    }
+
+    #photo {
+        max-width: 65%;
+        max-height: 0%;
+        border-radius: 20px;
+    }

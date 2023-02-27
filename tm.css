@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("gdscimg/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#photo {
+    max-width: 65%;
+    max-height: 0%;
+    border-radius: 20px;
+}
+
+.image {
+    flex-basis: 30%;
+}
+
+.text {
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header ul {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 4px;
+    background-color: #898989;
+}
+
+header ul li {
+    padding: 5px;
+}
+
+header ul li a {
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.techies {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: center;
+    width: 200px;
+
+
+}
+
+.m2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.m3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.m4 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: space-around;
+    width: 200px;
+}
+
+#techies2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#techl {
+    width: 100px;
+}
+
+#logo {
+    width: 15px;
+}
+
+#gd {
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#mem {
+    font-weight: bold;
+}
+
+#det {
+    color: blue
+}
